@@ -17,7 +17,7 @@ My first bot was pretty bad but I was able to see the weather while chatting on 
 
 The issue lied in my lack of fundamentals. I was excited to make a project but I never really tried to understand how to write a *decent* program. The tutorials I followed were very limited in the information they provided and if I tried to do anything beyond the scope of the video, chances are that it would not work as desired.
 
-I am creating this series while keeping my situation at that time in mind and the contents included in this series are the things that I wish I was told about software development when I was getting started. 
+I am creating this series while keeping in mind my early days in the world fo software development. The contents included in this series are the topics that I wish I was informed about software development and the topics I had understood when I was getting started. 
 
 ## FAQ
 
