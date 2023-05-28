@@ -38,3 +38,6 @@ That being said, there are some languages which are easier than others and can b
 
 ### 2. Do I need a Computer Science degree to get better at software development?
 **No. It is not a requirement. However, it certainly helps.** Software Development and Computer Science are very different from one another. The former deals with the creation of software and the latter focuses on the internals and the functioning of a computer. You certainly don't need to know how a computer works internally to make most software but having an understanding of the system is useful when you need/want to make optimized/performant applications or are creating a software which dives really deep and works on the lower levels.
+
+### 3. Do I need to be good at math?
+**No.** Having a decent understanding of algebra is all you really need to get started.
