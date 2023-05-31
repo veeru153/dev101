@@ -82,5 +82,9 @@ Strings refer to text. They are called "strings" because they are made up of a *
 
 ### Booleans
 
-Booleans refer to truthy or falsy values. The most common way of representing these values are `true` or `false`. They are most commonly used as flags and direct the flow of a program based on a condition. (We'll take a look at conditions and other logic soon.)
+Booleans refer to truthy or falsy values. The most common way of representing these values are `true` or `false`. 
+
+Any non-zero value is considered truthy. Non-zero values include all numbers except `0`, non-empty strings, etc. Conversely, a value of `0` or an empty string `""` are considered falsy values. This may seem confusing but experiment with this and it'll make sense. We will discuss more about these ahead.
+
+They are most commonly used as flags and direct the flow of a program based on a condition. (We'll take a look at conditions and other logic soon.)
 You will usually only check if a value is true or not (or conversely, is false or not) in your programs.
