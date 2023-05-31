@@ -1,6 +1,6 @@
 # Data Structures
 
-We have discussed a bit about data and the types of data that you can expect to work with while programming. However, data in the real world is usually structured. Let's consider a few examples:
+We have discussed a bit about data, storing data, and the types of data that you can expect to work with while programming. However, data in the real world is usually structured. Let's consider a few examples:
 
 - A shopping list contains a list of all the items that one needs to buy - Fruits, Cola, Chips, Chocolate, etc.
 - A menu at a cafe contains the list of items the cafe sells with the price of each item
@@ -12,7 +12,7 @@ We have discussed a bit about data and the types of data that you can expect to 
 | Bubble Tea | 2.99 |
 | Water | 0.99 |
 
-Similar to the real world, you can organize and structure data while writing programs which makes it easier to work with. There are some data structures which are common to all languages but there is usually a way for you to make a custom blueprint (with a Class, we'll discuss these later). Some of the more common and baisc data structures include arrays/lists, sets, and maps. We'll take a look at these one by one. We will also use some code snippets here and it is okay to not understand some keywords at the moment.
+Similar to the real world, you can organize and structure data while writing programs which makes it easier to work with. There are some data structures which are common to all languages but there is usually a way for you to make a custom blueprint (with a Class, we'll discuss these later). Some of the more common and basic data structures include arrays/lists, sets, and maps. We'll take a look at these one by one. We will also use some code snippets here and it is okay to not understand some keywords at the moment.
 
 ## Arrays / Lists
 Arrays or Lists are one dimensional data structures. As the name suggests, you can use these to store data as a list. There are some key differences between the two but that depends on the language you are using. In JS, these can be considered the same. We will call these arrays from here on. You will use code similar to the one written below to make an array.

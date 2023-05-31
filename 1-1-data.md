@@ -4,6 +4,55 @@ In the last part, we looked at how programming and data are related to one anoth
 
 To process this data, a program needs to be able to understand the kind of data it is. This part explains how a program works with data. We won't go deep into the technical stuff just yet. This is just a brief overview of the data types and data structures. I will try to keep the theoretical part as language agnostic as possible. However, the code snippets and their explanations will mostly use JS/TS.
 
+## Storing Data / Variables
+
+Before we look at the different types of data, it would be beneficial to know how data is stored in a program. You will store mostly store data in variables. A variable will become an alias which will point to the data you need. In the below example, `x` is the variable for `"some-data"`. Instead of explicitly using `"some-data"` directly, you can simply refer to it by using `x`.
+
+```ts
+x = "some-data";
+```
+
+In JS, to make variables, you either use `const` or `let` depending on whether you want to reassign variables. (There is a third way by using `var` but it isn't considered good practice so we'll skip over that).
+
+### `const`
+
+Short for constant, the values in these variables stays constant in the block the variable is declared in. (Blocks and scopes are important and will be discussed later. Just assume block = entire code for now).
+
+These variables **cannot** be reassigned. The following code will **not** work and will throw an error.
+
+```ts
+const x = "abc";
+x = "xyz";
+```
+
+### `let`
+
+Variables created with `let` can be reassigned throughout the block of code. The following code is now valid.
+
+```ts
+let x = "abc";
+// Beyond this point, the value stored in x is "abc"
+...
+x = "xyz";
+// Beynd this point, the value stored in x is "xyz"
+```
+
+### Naming Conventions
+
+Your variables should follow the following rules for them to be considered valid:
+- the variable can only contain letters, numbers, underscores (_), and a dollar sign ($)
+- the variable cannot start with a number
+
+There are different formats you could use while writing variables. The most common ones are:
+- camelCase
+- snake_case
+- SCREAMING_SNAKE_CASE
+
+The choice is based on personal preference. It is better to be consistent in a project. In this series (and my personal preference) is to use:
+- SCREAMING_SNAKE_CASE: for the most common constant variables (constants used everywhere in my project)
+- camelCase: for everything else
+
+
 ## Data Types
 
 As mentioned before, a program needs to know what type of data it is dealing with in order to provide the correct output. This is done by defining data types. Data types inform the program that it is currently working with numbers or text or an image and allows it to perform the correct actions (or display an error if the program does not handle the data correctly, more on errors later).
