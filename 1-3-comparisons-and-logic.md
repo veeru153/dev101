@@ -125,3 +125,58 @@ Using comparisons can explain the falsy value part well:
 
 Logical operators allow you to get a result of a combination of two booleans. The follow three basic logical operators can be used for this.
 
+### AND - `&&`
+
+Checks multiple conditions and all of them need to be true for the result to be true.
+
+```ts
+const x = 1;
+
+(x < 1) && (x > 1)      // false - (x < 1) => false, (x > 1) => false
+(x == 1) && (x > 1)     // false - (x == 1) => true, (x > 1) => false
+(x == 1) && (x >= 1)    // true - (x == 1) => true, (x => 1) => true
+```
+
+### OR - `||`
+
+Checks multiple conditions and all of them need to be true for the result to be true.
+
+```ts
+const x = 1;
+
+(x < 1) && (x > 1)      // false - (x < 1) => false, (x > 1) => false
+(x == 1) && (x > 1)     // true - (x == 1) => true, (x > 1) => false
+(x == 1) && (x >= 1)    // true - (x == 1) => true, (x => 1) => true
+```
+
+### NOT - `!`
+
+Returns the opposite of the result of the condition. Essentially, `!true = false` and vice-versa.
+
+```ts
+const x = 1;
+
+(x == 1)                // true
+!(x == 1)               // false
+(x < 1) && (x > 1)      // false
+!(x < 1) && (x > 1)     // false
+(x < 1) && !(x > 1)     // false
+!((x < 1) && (x > 1))   // true
+```
+
+## Ternary Operator 
+
+One last operator we will discuss in this is the ternery operator (also known as the conditional operator). This allows you to set a value based on some condition. The following is the syntax for this operator:  `condition ? valueIfTrue : valueIfFalse`.
+
+Let's try to set `result` based on the value of `x`. The values `result` can take are the following two strings:
+- `"x is 1"`
+- `"x is not 1"`
+
+```ts
+let x = 1;
+const result = (x == 1) ? "x is 1" : "x is not 1";
+// Beyond this point, result = "x is 1"
+...
+x = 2;
+// Beyond this point, result = "x is not 1"
+```

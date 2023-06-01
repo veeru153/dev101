@@ -37,6 +37,18 @@ x = "xyz";
 // Beynd this point, the value stored in x is "xyz"
 ```
 
+### Declaring vs Defining Variables
+
+Declaring variables refers to the act of creating a variable (without a value).
+Defining variables refers to the act of setting a value to a variable.
+
+```ts
+let x;        // Declaring x
+x = 1;        // Defining x
+
+const y = 2;  // Defining y
+```
+
 ### Naming Conventions
 
 Your variables should follow the following rules for them to be considered valid:

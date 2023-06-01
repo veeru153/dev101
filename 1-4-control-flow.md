@@ -1,6 +1,6 @@
 # Control Flow
 
-Now that we have discussed making conditions with the help of comparison and logical operatos, we can control the flow of execution of any program. This can be achieved by Branching. Certain repetitive actions can also be performed until a certain condition is met by creating a loop.
+Now that we have discussed making conditions with the help of comparison and logical operators, we can control the flow of execution of any program. This can be achieved by Branching. Certain repetitive actions can also be performed until a certain condition is met by creating a loop.
 
 ## Branching
 
