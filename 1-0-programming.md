@@ -2,7 +2,7 @@
 
 ## What is Programming?
 
-Progamming is the process of creating programs. Programs are a series of instructions that computer can understand and execute. Computers work with data. The programs that you write can tell the computer to create and manipulate data. Understanding data is crucial to understanding programming and how it works.
+Programming is the process of creating programs. Programs are a series of instructions that computer can understand and execute. Computers work with data. The programs that you write can tell the computer to create and manipulate data. Understanding data is crucial to understanding programming and how it works.
 
 ## What is Data?
 

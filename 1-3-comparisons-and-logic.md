@@ -1,12 +1,12 @@
 # Comparisons and Logic
 
-So far, we have looked at data. However, a program does not simply store data. The real world consists of decision making. These decisions depend on conditions and each conditon may lead to a different result.
+So far, we have looked at data. However, a program does not simply store data. The real world consists of decision making. These decisions depend on conditions and each condition may lead to a different result.
 
 Similar to the real world, a program usually needs to either take decisions which depend on conditions. You can make conditions by making comparisons and applying logic.
 
 ## Comparing Values
 
-We can peform equality checks (is equal, greater/lesser than). The following operators can acheive this result. For these example, let's assume `x = 1`:
+We can perform equality checks (is equal, greater/lesser than). The following operators can achieve this result. For these example, let's assume `x = 1`:
 
 - Equality - equal value: `==`
 
@@ -166,7 +166,7 @@ const x = 1;
 
 ## Ternary Operator 
 
-One last operator we will discuss in this is the ternery operator (also known as the conditional operator). This allows you to set a value based on some condition. The following is the syntax for this operator:  `condition ? valueIfTrue : valueIfFalse`.
+One last operator we will discuss in this is the ternary operator (also known as the conditional operator). This allows you to set a value based on some condition. The following is the syntax for this operator:  `condition ? valueIfTrue : valueIfFalse`.
 
 Let's try to set `result` based on the value of `x`. The values `result` can take are the following two strings:
 - `"x is 1"`

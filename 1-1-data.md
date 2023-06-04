@@ -12,6 +12,20 @@ Before we look at the different types of data, it would be beneficial to know ho
 x = "some-data";
 ```
 
+Since we will be using code snippets a lot starting now, it is helpful to know comments and how to use them. Anything after `//` is a comment and is not considered code. Any block of code contained inside `/* ... */` is also a comment but these can be multiline as well.
+
+```ts
+// This is a comment.
+
+/* 
+ * This is also a comment. But
+ * this can be multiline as well.
+ */
+
+// You can also use the first 
+// style to make multiline comments. 
+```
+
 In JS, to make variables, you either use `const` or `let` depending on whether you want to reassign variables. (There is a third way by using `var` but it isn't considered good practice so we'll skip over that).
 
 ### `const`
@@ -34,7 +48,7 @@ let x = "abc";
 // Beyond this point, the value stored in x is "abc"
 ...
 x = "xyz";
-// Beynd this point, the value stored in x is "xyz"
+// Beyond this point, the value stored in x is "xyz"
 ```
 
 ### Declaring vs Defining Variables
@@ -61,8 +75,10 @@ There are different formats you could use while writing variables. The most comm
 - SCREAMING_SNAKE_CASE
 
 The choice is based on personal preference. It is better to be consistent in a project. In this series (and my personal preference) is to use:
-- SCREAMING_SNAKE_CASE: for the most common constant variables (constants used everywhere in my project)
+- SCREAMING_SNAKE_CASE: for the most common constant variables (constants used everywhere in a project)
 - camelCase: for everything else
+
+Also, please use meaningful variable names. This is especially useful when working in a team as a simple `x` may not convey the significance of that variable and what data is contained inside it but something like `sum` or `total` explains that this variable contains the sum of some values. This also makes the code **self-documenting** and allows any one to understand what the code does without writing a bunch of comments.
 
 
 ## Data Types

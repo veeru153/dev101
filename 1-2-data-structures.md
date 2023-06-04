@@ -29,7 +29,7 @@ The most common operations performed on/with arrays are iterating, searching, an
 
 - Searching: Want to see if your shopping list contains Eggs? You can go over all elements one by one and see if the list contains eggs (or you could use the search feature provided by the language).
 
-- Sorting: Revisit the stopwatch times. Want to sort the timings? Go over the values and swap them, or create a new array with the sorted values, or use the sorting feature provided by the language. (Sorting can be performed manually using algorithms and there are many sortin algorithms each with their pros and cons. At this stage, algorithms can be a little hard to work with. We'll explore these later)
+- Sorting: Revisit the stopwatch times. Want to sort the timings? Go over the values and swap them, or create a new array with the sorted values, or use the sorting feature provided by the language. (Sorting can be performed manually using algorithms and there are many sorting algorithms each with their pros and cons. At this stage, algorithms can be a little hard to work with. We'll explore these later)
 
 The usage of operations on arrays will be discussed later on once we start writing programs.
 
@@ -54,7 +54,7 @@ shoppingList.add("chocolate");
 Trying to add the same data again will not work as a set can only contain unique values.
 
 ## Stacks
-Stacks are another one-dimensional, linear data structure which follow the first in first out (FIFO) concept. Consider a *stack* of plates. You pick from the top, you add to the top. That's pretty much what a stack does.
+Stacks are another one-dimensional, linear data structure which follow the first-in-first-out (FIFO) concept - what enters first is what leaves first. Consider a *stack* of plates. You pick from the top, you add to the top. That's pretty much what a stack does.
 
 Say you have the following stack:
 
@@ -81,7 +81,7 @@ The implementation of a stack is different across languages. In JS, you can use 
 Although, pushing and popping from both ends have been demonstrated, both pushing and popping should only be done from one end (let's call this the active end) for it to truly be a stack. In further demonstrations, unless explicitly mentioned, the active end will be the rear, i.e: both push and pop operations will happen at the rear.
 
 ## Queues
-Queues are another one-dimensional, linear data structure. As the name suggests, this a queue like the queue in the bank. People join the queue at one end and the leave from the other.
+Queues are another one-dimensional, linear data structure. As the name suggests, this a queue like the queue in the bank. People join the queue at one end and the leave from the other. This is the last-in-first-out (LIFO) concept - what enters last is what leaves first.
 
 Say you have the following queue:
 
@@ -105,7 +105,7 @@ result = [2, 3, 4, 5];    // Remove from the rear
 
 The implementation of a queue is different across languages. In JS, you can use an array and some of the operations provided out of the box to use it like a stack. 
 
-Although, adding and removing or elements from both ends have been demonstrated, both adding and removing of elements should only be done from differentends for it to truly be a queue. In further demonstrations, unless explicitly mentioned, the addition will be done at the rear while the removal will be done from the front.
+Although, adding and removing or elements from both ends have been demonstrated, both adding and removing of elements should only be done from different ends for it to truly be a queue. In further demonstrations, unless explicitly mentioned, the addition will be done at the rear while the removal will be done from the front.
 
 ## Maps
 Maps are key-value pairs. Recall the menu example from before. That menu can be stored as a map where the name of the drink is the key and the price is the value. The types of all keys should be the same ideally. The types of all values can be different, but should be the same for consistency. For the sake of simplicity, we will keep the types of the values the same. To create the above menu as a map, you would use code similar to the ones written below. The first line creates an empty map. The `.set` sets the value (`2.49`) for a key (`"espresso"`). Again, note the data types of the keys and the values.
