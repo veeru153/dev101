@@ -247,7 +247,32 @@ We have already looked at `break` when discussing the `switch` block. It works t
 
 The `continue` keyword is used to skip the execution for the current value of the iterator.
 
-// TODO: continue
+If you were printing the numbers from 1 to 10 but for some reason, wanted to skip the number 5, you can skip it using the `continue` keyword. The code snippet below uses the `for` loop to demonstrate the use of this keyword. It works similarly in the `while` and `do-while` loops.
+
+```ts
+for (let i = 1; i <= 10; i++) {
+    if (i === 5) {
+        continue;
+    }
+    console.log(i);
+}
+```
+
+Output:
+
+```
+1
+2
+3
+4
+6
+7
+8
+9
+10
+```
+
+Try to write the code for the same using the `while` and `do-while` on your own.
 
 ### Infinite Loops
 
