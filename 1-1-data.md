@@ -114,5 +114,33 @@ Booleans refer to truthy or falsy values. The most common way of representing th
 
 Any non-zero value is considered truthy. Non-zero values include all numbers except `0`, non-empty strings, etc. Conversely, a value of `0` or an empty string `""` are considered falsy values. This may seem confusing but experiment with this and it'll make sense. We will discuss more about these ahead.
 
-They are most commonly used as flags and direct the flow of a program based on a condition. (We'll take a look at conditions and other logic soon.)
-You will usually only check if a value is true or not (or conversely, is false or not) in your programs.
+They are most commonly used as flags and direct the flow of a program based on a condition. (We'll take a look at conditions and other logic soon.) You will usually only check if a value is true or not (or conversely, is false or not) in your programs.
+
+## `typeof`
+
+The `typeof` keyword can be used to obtain the *type of* of a data.
+
+```ts
+typeof 1;            // number
+typeof "a string";   // string
+typeof true;         // boolean
+```
+
+## Primitive and Non-Primitive Data Types
+
+The data types discussed above are all **primitive** data types. These data types are immutable (the value cannot be modified without creating a new value). The notion of immutability has to do with how memory is handled by a language. **This can be considered an advanced topic** but I will try to explain it in an easier way. [Here is what I think is a good read on this topic if you are interested in reading more.](https://stackoverflow.com/a/52242541/14984918)
+
+The memory on the computer consists of blocks. Each block has an address. Think of it as an apartment complex. Each apartment has an address and there are people living inside that apartment. Consider the following: John Smith lives in Apartment 101. You need to deliver a letter addressed to John Smith. You use the address provided (101) to get to John Smith and then deliver the address to them. 
+
+Whenever you define a variable, for a computer, you are allocating some memory for the defined value. The variable contains the address of this memory block, i.e. the variable points to this memory block.
+
+When you modify a value of a primitive data type, the following happens internally:
+
+- you get the value using the address stored in the variable
+- you modify the value
+- you place the value inside a new block of memory
+- you place the address inside the target variable
+
+**Non-primitive** data types on the other hand ARE mutable, i.e. the value stored inside the memory block can be modified directly. The modified value stays in the same memory block. In JS, the object data type is the only non-primitive data type.
+
+As developers, it can be helpful to know how this works. This information will be more useful when we work with functions later on.

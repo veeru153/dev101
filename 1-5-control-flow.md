@@ -157,7 +157,7 @@ There are variations of the `for` loop as well - `for-in` and `for-of`. We'll lo
 
 ### `while`
 
-The `while` loop continues as long as the condition is met (i.e: the condition is a truthy value). The main difference with the `for` loop is that initial value of the iterator has to be defined outside the `while` loop and the value has to be updated inside the loop. The syntax of a `while` loop is as follows.
+The `while` loop continues as long as the condition is met (i.e. the condition is a truthy value). The main difference with the `for` loop is that initial value of the iterator has to be defined outside the `while` loop and the value has to be updated inside the loop. The syntax of a `while` loop is as follows.
 
 ```ts
 while(condition) {

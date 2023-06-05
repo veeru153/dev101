@@ -78,7 +78,7 @@ result = [3, 4, 5, 6];    // Pop from the front
 
 The implementation of a stack is different across languages. In JS, you can use an array and some of the operations provided out of the box to use it like a stack. 
 
-Although, pushing and popping from both ends have been demonstrated, both pushing and popping should only be done from one end (let's call this the active end) for it to truly be a stack. In further demonstrations, unless explicitly mentioned, the active end will be the rear, i.e: both push and pop operations will happen at the rear.
+Although, pushing and popping from both ends have been demonstrated, both pushing and popping should only be done from one end (let's call this the active end) for it to truly be a stack. In further demonstrations, unless explicitly mentioned, the active end will be the rear, i.e. both push and pop operations will happen at the rear.
 
 ## Queues
 Queues are another one-dimensional, linear data structure. As the name suggests, this a queue like the queue in the bank. People join the queue at one end and the leave from the other. This is the last-in-first-out (LIFO) concept - what enters last is what leaves first.
@@ -118,3 +118,14 @@ menu.set("bubble tea", 2.99);
 menu.set("water", 0.99);
 ```
 There is a shorter way of creating a map, similar to how we created a set above but let's stick to this for now. The most common operations performed on a map include storing, fetching, updating, and removing values stored in the map. We'll look at these later when we start writing programs.
+
+---
+### A Note on Data Types
+
+All data structures discussed above are **non-primitive** data types in JS. You can freely modify the contents of the data without changing the location of the *object* as these are all considered objects by JS. This can be validated by using the `typeof` keyword.
+
+```ts
+typeof [];              // object
+typeof new Map();       // object
+typeof new Set();       // object
+```
