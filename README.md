@@ -9,7 +9,7 @@ In this series, we go through some general concepts about software development a
 
 ## Motivation
 
-TLDR: see last paragraph
+TL;DR: see last paragraph
 
 I have always been fascinated with computers and how software is made. My journey in the realm of software development began in 2017 with a very basic website for a school project. I worked on a few other small personal projects just for fun. After that, I became interested in making chat bots for Discord which increased my interest in this field.
 
@@ -34,10 +34,10 @@ I am creating this series while keeping in mind my early days in the world fo so
 | Games | C# (Unity), C++ (Unreal Engine)  |
 | Machine Learning / AI | Python |
 
-That being said, there are some languages which are easier than others and can be useful for beginners to get started. My personal recommendations would be to start with one of JavaScript, Pythonm, or Java. These languages are quite friendly and easy to understand and are quite commonly used in software development as well.
+That being said, there are some languages which are easier than others and can be useful for beginners to get started. My personal recommendations would be to start with one of JavaScript, Python, or Java. These languages are quite friendly and easy to understand and are quite commonly used in software development as well.
 
 ### 2. Do I need a Computer Science degree to get better at software development?
-**No. It is not a requirement. However, it certainly helps.** Software Development and Computer Science are very different from one another. The former deals with the creation of software and the latter focuses on the internals and the functioning of a computer. You certainly don't need to know how a computer works internally to make most software but having an understanding of the system is useful when you need/want to make optimized/performant applications or are creating a software which dives really deep and works on the lower levels.
+**No. It is not a requirement. However, it certainly helps.** Software Development and Computer Science are very different from one another. The former deals with the creation of software and the latter focuses on the internals and the functioning of a computer. You certainly don't need to know how a computer works internally to make most software but having an understanding of the system is useful when you need/want to make optimized/performant applications or are creating a software which dives really deep and works on the lower levels. We won't be diving this deep in this series.
 
 ### 3. Do I need to be good at math?
-**No.** Having a decent understanding of algebra is all you really need to get started.
+**No.** Having a decent understanding of algebra is all you really need to get started. Complex math is required and recommended for certain tracks. However, you will be fine if you have basic knowledge of math for the most part.
