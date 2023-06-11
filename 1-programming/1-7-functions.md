@@ -1,12 +1,37 @@
 # Functions
 
-Functions are reusable chunks of code. These are useful if you want to perform the same operation at many different parts in the code. A function can be written using the following syntax.
+Functions are reusable chunks of code. These are useful if you want to perform the same operation at many different parts in the code. A function in JS can be written using the following syntax.
 
 ```ts
 function name(args) {
     // code this function should execute
 }
 ```
+
+Another syntax is the arrow function syntax. These work similar to the one used above for the most part. There are some subtle differences between the two which can be discussed later.
+
+```ts
+const name = (args) => {
+    // code this function should execute
+}
+```
+
+### Function vs Method
+Over the next few pages, we will occasionally refer to functions as "methods". Methods are functions which are related to an object. The following snippet displays some methods along with their explanations.
+
+```ts
+const arr = [1, 2, 3, 4];
+arr.push(5);            // Adds an element to arr
+arr.pop();              // Removes the last element from arr
+arr.map(...);           // Creates a new array based on arr
+arr.forEach(...);       // Loops over all elements of arr
+
+const str = "Hello World!";
+str.split(" ");          // Splits str based on the arg and makes an array 
+str.startsWith("H");     // Checks whether str starts with the arg    
+```
+
+Explore the methods for other data structures, such as [Sets](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set#instance_methods) and [Maps](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map#instance_methods). 
 
 ## Arguments (`args`)
 

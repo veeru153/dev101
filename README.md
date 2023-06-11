@@ -7,6 +7,8 @@ The primary objective of this project is to develop a comprehensive written seri
 
 In this series, we go through some general concepts about software development and programming and then understand how to make a software. I will mostly focus on web technologies in this series as web apps are quite popular and are easier to make and reach out quite easily to a larger audience. The technical stuff included in this series talks a bit about HTML and CSS (for the UI) and uses JavaScript/TypeScript for programming.
 
+This is meant to be a guiding resource and not a full fledged tutorial series. As a guiding resource, it will help you understand the basics. You are encouraged to explore the advanced concepts on your own.
+
 ## Contents
 
 - [Introduction](./0-introduction/)

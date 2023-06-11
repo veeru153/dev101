@@ -98,15 +98,20 @@ Numbers are... well numbers. They can be integers or decimal point numbers. The 
 
 ### Strings
 
-Strings refer to text. They are called "strings" because they are made up of a *string* of characters. Strings are used to store any data that needs to be stored as text (names, addresses, etc.). The common operations that one can perform on a string are:
+Strings refer to text. They are called "strings" because they are made up of a *string* of characters. A single element of a string is called a character. Strings are used to store any data that needs to be stored as text (names, addresses, etc.). The common operations that one can perform on a string are:
 
 - string matching - checking if string matches another string
   - are `"abcd"` and `"abcd"` equal? - Yes!
   - are `"abcd"` and `"abc"` equal? - No!
-- checking if the string contains a particular substring 
+- checking substring - checking if the string contains a particular string inside of it 
   - does `"abcd"` contain `"b"`? - Yes!
   - does `"abcd"` contain `"bc"`? - Yes!
   - does `"abcd"` contain `"be"`? - No!
+- string transformation - modifying the string based on requirements
+  - converting `"  abcd  "` to uppercase - `"  ABCD  "`
+  - trimming extra whitespace from `"  abcd  "` - `"abcd"`
+  - concatenating strings `"Hello"` and `" World!"` - `"Hello World!"`
+  - replacing substring `"Hello"` in `"Hello World!"` with `"Hi"` - `"Hi World!"`
 
 ### Booleans
 
