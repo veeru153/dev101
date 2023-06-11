@@ -26,5 +26,7 @@ This is meant to be a guiding resource and not a full fledged tutorial series. A
     - [Control Flow](./1-programming/1-5-control-flow.md)
     - [Math](./1-programming/1-6-math.md)
     - [Functions](./1-programming/1-7-functions.md)
+    - [Hands On](./1-programming/1-8-hands-on.md)
+    - [Hands On - Snippets](./1-programming/1-9-hands-on-snippets.md)
 
 - To be continued...

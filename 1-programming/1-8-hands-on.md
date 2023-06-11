@@ -1,4 +1,4 @@
-# Hands On!
+# Hands On
 
 We have a basic idea about programming at this point. It would be useful to look at some of these concepts in action. 
 

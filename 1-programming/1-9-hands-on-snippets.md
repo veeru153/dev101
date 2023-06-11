@@ -1,4 +1,4 @@
-# Hands On! - Snippets
+# Hands On - Snippets
 
 ### Creating and Printing Data
 
