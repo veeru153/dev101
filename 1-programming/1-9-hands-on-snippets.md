@@ -27,7 +27,7 @@ console.log(Math.min(x, y));
 ### Arrays and Loops
 
 ```ts
-console.log("Creating the Array");
+console.log("- Creating the Array");
 const numbers = [];
 numbers.push(1);
 numbers.push(3);
