@@ -20,9 +20,9 @@ You will need another extension if you will be using the [Windows Subsystem for 
 
 ## Setting up the Environment
 
-Next, we will need to set up the environment. Linux and macOS are more popular for development due to the stability they offer. If you are running either of these systems, you are good to go.
+Next, we will need to set up the environment. Linux and macOS are more popular for development due to the stability they offer. If you are running either of these systems, you are good to go. Windows users should be fine for now. However, we will be using WSL later in the course. If you would like to read more about it, keep reading. Otherwise you can skip ahead.
 
-### Windows Users Only 
+### Windows Users Only - WSL
 
 You could write programs and run them directly on Windows through Command Prompt or PowerShell but I recommend installing WSL (Windows Subsystem for Linux) which creates a virtualized Linux environment for you. By default it will install Ubuntu for you which works well for us.
 
